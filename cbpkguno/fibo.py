@@ -1,6 +1,7 @@
 def fib(x):
-    cache = {}  # Use to avoid running many times
-
+    if x % 1 != 0 or x < 0:
+        raise NotImplementedError('fib only defined on non-negative integers.')
+    cache = {}
     def fib_inner(x):
         nonlocal cache
         if x in cache:
