@@ -1,0 +1,9 @@
+|-- data
+|-- docs
+|-- results
+|-- scripts
+|-- src
+|-- tests
+ -- .gitignore
+ -- environment.yml
+ -- README.md
